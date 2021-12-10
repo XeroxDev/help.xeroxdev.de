@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2021-12-10T17:38:36.447Z
+date: 2021-12-10T17:49:09.489Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2021-11-18T14:10:31.591Z
