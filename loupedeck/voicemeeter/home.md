@@ -2,7 +2,7 @@
 title: VoiceMeeter
 description: 
 published: true
-date: 2021-12-10T17:48:42.186Z
+date: 2021-12-10T17:49:58.315Z
 tags: loupedeck, plugin, extension, voicemeeter
 editor: markdown
 dateCreated: 2021-11-21T12:28:44.431Z
