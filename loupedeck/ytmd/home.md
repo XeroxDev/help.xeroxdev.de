@@ -2,22 +2,13 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2021-12-10T17:37:13.737Z
+date: 2021-12-10T17:38:36.447Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2021-11-18T14:10:31.591Z
 ---
 
-# 1. Table of content
-- [1. Table of content](#1-table-of-content)
-- [2. Badges](#2-badges)
-- [3. What is this Plugin?](#3-what-is-this-plugin)
-- [4. Support / Feedback](#4-support--feedback)
-- [5. Actions](#5-actions)
-- [6. How to use it?](#6-how-to-use-it)
-- [7. How to contribute?](#7-how-to-contribute)
-
-# 2. Badges
+# 1. Badges
 [![Forks](https://img.shields.io/github/forks/XeroxDev/Loupedeck-plugin-YTMDesktop?color=blue&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/network/members)  [![Stars](https://img.shields.io/github/stars/XeroxDev/Loupedeck-plugin-YTMDesktop?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/stargazers) [![Watchers](https://img.shields.io/github/watchers/XeroxDev/Loupedeck-plugin-YTMDesktop?color=lightgray&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/watchers) [![Contributors](https://img.shields.io/github/contributors/XeroxDev/Loupedeck-plugin-YTMDesktop?color=green&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/graphs/contributors)
 
 [![Issues](https://img.shields.io/github/issues/XeroxDev/Loupedeck-plugin-YTMDesktop?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/issues) [![Issues closed](https://img.shields.io/github/issues-closed/XeroxDev/Loupedeck-plugin-YTMDesktop?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/issues?q=is%3Aissue+is%3Aclosed)
@@ -29,16 +20,16 @@ dateCreated: 2021-11-18T14:10:31.591Z
 
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green?style=for-the-badge)](https://shields.io)
 
-# 3. What is this Plugin?
+# 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the YouTube Music Desktop
 App [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop)
 
-# 4. Support / Feedback
+# 3. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
 You can also join my discord [here](https://s.tswi.me/discord)
 
-# 5. Actions
+# 4. Actions
 
 - Play / Pause Track
 - Next Track
@@ -57,7 +48,7 @@ You can also join my discord [here](https://s.tswi.me/discord)
   - ALL
   - ONE
 
-# 6. How to use it?
+# 5. How to use it?
 
 1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
 2. Install the Plugin from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases)
@@ -70,7 +61,7 @@ You can also join my discord [here](https://s.tswi.me/discord)
 8. Add all settings. (Host, Port, Password)
 9. Click save
 
-# 7. How to contribute?
+# 6. How to contribute?
 
 Just fork the repository and create PR's, but we use [standard-version](https://github.com/conventional-changelog/standard-version) to optimal release the plugin.
 
