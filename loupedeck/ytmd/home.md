@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2021-12-10T17:49:36.308Z
+date: 2021-12-10T18:00:15.662Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2021-11-18T14:10:31.591Z
@@ -21,8 +21,7 @@ dateCreated: 2021-11-18T14:10:31.591Z
 [![Awesome Badges](https://img.shields.io/badge/badges-awesome-green?style=for-the-badge)](https://shields.io)
 
 # 2. What is this Plugin?
-This Loupedeck Plugin allows you to control the YouTube Music Desktop
-App [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop)
+This Loupedeck Plugin allows you to control the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop)
 
 # 3. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
