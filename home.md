@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2021-12-13T09:46:07.467Z
+date: 2021-12-13T09:46:28.099Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-18T12:54:00.989Z
@@ -40,7 +40,7 @@ You want to support me? You can do this via my [Ko-Fi](https://ko-fi.com/xeroxde
 ---
 
 <h1 align="center">About me</h1>
-<h2 align="center">Hi 👋, I'm XeroxDev</h1>
+<h2 align="center">Hi 👋, I'm XeroxDev</h2>
 <h3 align="center">A passionate full stack developer from Germany.</h3>
 
 <p align="center">
