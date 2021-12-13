@@ -2,7 +2,7 @@
 title: Welcome
 description: 
 published: true
-date: 2021-12-13T09:44:45.112Z
+date: 2021-12-13T09:46:07.467Z
 tags: 
 editor: markdown
 dateCreated: 2021-11-18T12:54:00.989Z
@@ -37,6 +37,7 @@ Join our [discord](https://s.tswi.me/discord) for even more help or to chat!
 
 You want to support me? You can do this via my [Ko-Fi](https://ko-fi.com/xeroxdev)!
 
+---
 
 <h1 align="center">About me</h1>
 <h2 align="center">Hi 👋, I'm XeroxDev</h1>
