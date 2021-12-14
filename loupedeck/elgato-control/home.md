@@ -2,7 +2,7 @@
 title: Elgato Control
 description: 
 published: true
-date: 2021-12-14T13:54:19.329Z
+date: 2021-12-14T14:11:05.532Z
 tags: loupedeck, plugin, extension, elgato, key light, light strip, control
 editor: markdown
 dateCreated: 2021-12-14T13:54:19.329Z
@@ -25,3 +25,4 @@ You found a bug? You have a feature request? I would love to hear about it [here
 4. Control your lights and colors!
 
 # 5. Download
+[Download Now!](https://dl.xeroxdev.de/plugins/releases/ElgatoControlPlugin.lplug4)
