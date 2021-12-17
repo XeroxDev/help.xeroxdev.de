@@ -1,8 +1,8 @@
 ---
-title: Changelog
+title: Elgato Control - Changelog
 description: 
 published: true
-date: 2021-12-17T08:26:13.448Z
+date: 2021-12-17T08:28:04.761Z
 tags: loupedeck, plugin, extension, elgato, key light, light strip, control, changelog
 editor: markdown
 dateCreated: 2021-12-17T08:26:13.448Z
