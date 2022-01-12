@@ -2,8 +2,8 @@
 title: Elgato Control
 description: 
 published: true
-date: 2021-12-14T14:11:05.532Z
-tags: loupedeck, plugin, extension, elgato, key light, light strip, control
+date: 2022-01-12T20:15:06.126Z
+tags: loupedeck, plugin, extension, elgato, control, keylight, lightstrip
 editor: markdown
 dateCreated: 2021-12-14T13:54:19.329Z
 ---
