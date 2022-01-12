@@ -16,14 +16,14 @@ Supports:
 - Volume adjust (knob turn)
 - Volume mute (knob press)
 
-# 3. Support / Feedback
+# 2. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/oddbear/Loupedeck.VolumeControl.Plugin/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
-# 4. How to use it?
+# 3. How to use it?
 
 1. Install the Plugin
 2. Add Actions to Loupedeck
 
-# 5. Download
+# 4. Download
 
 [Download](https://github.com/oddbear/Loupedeck.VolumeControl.Plugin/releases)

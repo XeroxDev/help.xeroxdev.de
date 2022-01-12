@@ -17,16 +17,16 @@ Supports:
 - Toggle Routing
 - Status indicators for routing and profiles
 
-# 3. Support / Feedback
+# 2. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/oddbear/Loupedeck.GoXLR.Plugin/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
-# 4. How to use it?
+# 3. How to use it?
 
 1. Install the GoXLR App
 2. Install the Plugin
 3. Add Actions to Loupedeck
 
-# 5. Common issues
+# 4. Common issues
 
 Only one plugin can run at the time (technical limitation). If you have the StreamDeck, Touch Portal or any other plugin running, then it will notify in the Loupedeck app (red dot) you that the port is already in use.
 
@@ -35,6 +35,6 @@ Indicated both by notification in the Loupedeck app (yellow dot).
 The GoXLR App will say `Not Connected to Stream Deck` in the lower right corner.
 Click the  `Connect to Stream Deck` button (lower right corner) in the GoXLR App to fix.
 
-# 6. Download
+# 5. Download
 
 [Download](https://github.com/oddbear/Loupedeck.GoXLR.Plugin/releases)
