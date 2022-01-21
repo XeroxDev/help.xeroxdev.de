@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2022-01-21T13:10:21.564Z
+date: 2022-01-21T13:11:29.827Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2022-01-10T11:54:12.635Z
@@ -54,7 +54,7 @@ You can also join my discord [here](https://s.tswi.me/discord)
 # 6. How to use it?
 
 1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
-2. Install the Plugin from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases)
+2. Install the Plugin (`.lplug4` file) from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases)
 3. Add Actions to your Loupedeck.
 4. Activate the Companion Server / Remote control from YTMD App
     - Settings > Integration > "Enable Companion Server" or "Remote control" (Should be the first entry with an open icon)
