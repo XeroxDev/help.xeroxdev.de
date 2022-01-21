@@ -2,10 +2,10 @@
 title: VoiceMeeter
 description: 
 published: true
-date: 2021-12-10T17:49:58.315Z
+date: 2022-01-21T13:12:39.949Z
 tags: loupedeck, plugin, extension, voicemeeter
 editor: markdown
-dateCreated: 2021-11-21T12:28:44.431Z
+dateCreated: 2022-01-10T11:54:07.551Z
 ---
 
 # 1. Badges
@@ -23,19 +23,23 @@ dateCreated: 2021-11-21T12:28:44.431Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the [VoiceMeeter](https://voicemeeter.com) application
 
-# 3. Support / Feedback
+# 3. Supported operation systems
+- [X] Windows
+- [ ] Mac
+
+# 4. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/Loupedeck-plugin-VoiceMeeter/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
 You can also join my discord [here](https://s.tswi.me/discord)
 
-# 4. How to use it?
+# 5. How to use it?
 
 1. Install the [VoiceMeeter](https://voicemeeter.com) App
-2. Install the Plugin
+2. Install the latest Plugin (`.lplug4` file) from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-VoiceMeeter/releases)
 3. Add Actions to Loupedeck
 4. Have fun controlling your voicemeeter
 
-# 5. How to contribute?
+# 6. How to contribute?
 
 Just fork the repository and create PR's, but we use [standard-version](https://github.com/conventional-changelog/standard-version) to optimal release the plugin.
 
