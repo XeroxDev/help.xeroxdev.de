@@ -2,10 +2,10 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2021-12-10T18:00:15.662Z
+date: 2022-01-21T13:10:21.564Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
-dateCreated: 2021-11-18T14:10:31.591Z
+dateCreated: 2022-01-10T11:54:12.635Z
 ---
 
 # 1. Badges
@@ -23,12 +23,16 @@ dateCreated: 2021-11-18T14:10:31.591Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop)
 
-# 3. Support / Feedback
+# 3. Supported operation systems
+- [X] Windows
+- [ ] Mac
+
+# 4. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
 You can also join my discord [here](https://s.tswi.me/discord)
 
-# 4. Actions
+# 5. Actions
 
 - Play / Pause Track
 - Next Track
@@ -47,7 +51,7 @@ You can also join my discord [here](https://s.tswi.me/discord)
   - ALL
   - ONE
 
-# 5. How to use it?
+# 6. How to use it?
 
 1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
 2. Install the Plugin from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases)
@@ -60,7 +64,7 @@ You can also join my discord [here](https://s.tswi.me/discord)
 8. Add all settings. (Host, Port, Password)
 9. Click save
 
-# 6. How to contribute?
+# 7. How to contribute?
 
 Just fork the repository and create PR's, but we use [standard-version](https://github.com/conventional-changelog/standard-version) to optimal release the plugin.
 
