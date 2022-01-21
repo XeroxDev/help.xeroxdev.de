@@ -2,10 +2,10 @@
 title: Speedtest
 description: 
 published: true
-date: 2021-12-10T17:57:59.740Z
+date: 2022-01-21T13:14:03.917Z
 tags: loupedeck, plugin, extension, speedtest
 editor: markdown
-dateCreated: 2021-12-08T13:59:21.356Z
+dateCreated: 2022-01-10T11:54:02.332Z
 ---
 
 # 1. Badges
@@ -23,18 +23,22 @@ dateCreated: 2021-12-08T13:59:21.356Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the test your internet connection. It shows Ping, download and upload speed
 
-# 3. Support / Feedback
+# 3. Supported operation systems
+- [X] Windows
+- [ ] Mac
+
+# 4. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/Loupedeck-plugin-Speedtest/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
 
 You can also join my discord [here](https://s.tswi.me/discord)
 
-# 4. How to use it?
+# 5. How to use it?
 
-1. Install the Plugin
+1. Install the latest Plugin (`.lplug4` file) from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-Speedtest/releases)
 2. Add Action to Loupedeck
 3. Push it & wait
 
-# 5. How to contribute?
+# 6. How to contribute?
 
 Just fork the repository and create PR's, but we use [standard-version](https://github.com/conventional-changelog/standard-version) to optimal release the plugin.
 
