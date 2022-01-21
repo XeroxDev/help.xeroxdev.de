@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2022-01-21T13:12:58.064Z
+date: 2022-01-21T13:30:21.006Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2022-01-10T11:54:12.635Z
@@ -64,7 +64,10 @@ You can also join my discord [here](https://s.tswi.me/discord)
 8. Add all settings. (Host, Port, Password)
 9. Click save
 
-# 7. How to contribute?
+# 7. Links
+[Download](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases/latest/download/YTMDesktop.lplug4){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .primary} [Source Code](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .secondary} [Changelog](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/blob/main/CHANGELOG.md){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .success}
+
+# 8. How to contribute?
 
 Just fork the repository and create PR's, but we use [standard-version](https://github.com/conventional-changelog/standard-version) to optimal release the plugin.
 
