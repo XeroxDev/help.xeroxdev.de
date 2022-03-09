@@ -2,7 +2,7 @@
 title: Elgato Control
 description: 
 published: true
-date: 2022-01-21T13:39:05.862Z
+date: 2022-03-09T09:07:49.120Z
 tags: loupedeck, plugin, extension, elgato, control, keylight, lightstrip
 editor: markdown
 dateCreated: 2021-12-14T13:54:19.329Z
@@ -14,7 +14,7 @@ This Loupedeck Plugin allows you to control your elgato devices.
 # 2. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://s.tswi.me/discord) on my discord
 
-# 3. Supported operation systems
+# 3. Supported operating systems
 - [X] Windows
 - [ ] Mac
 
