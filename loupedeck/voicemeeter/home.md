@@ -2,7 +2,7 @@
 title: VoiceMeeter
 description: 
 published: true
-date: 2022-01-21T13:35:25.450Z
+date: 2022-03-09T09:08:20.348Z
 tags: loupedeck, plugin, extension, voicemeeter
 editor: markdown
 dateCreated: 2022-01-10T11:54:07.551Z
@@ -23,7 +23,7 @@ dateCreated: 2022-01-10T11:54:07.551Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the [VoiceMeeter](https://voicemeeter.com) application
 
-# 3. Supported operation systems
+# 3. Supported operating systems
 - [X] Windows
 - [ ] Mac
 
