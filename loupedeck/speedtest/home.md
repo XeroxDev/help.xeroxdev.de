@@ -2,7 +2,7 @@
 title: Speedtest
 description: 
 published: true
-date: 2022-01-21T13:38:05.134Z
+date: 2022-03-09T09:08:14.215Z
 tags: loupedeck, plugin, extension, speedtest
 editor: markdown
 dateCreated: 2022-01-10T11:54:02.332Z
@@ -23,7 +23,7 @@ dateCreated: 2022-01-10T11:54:02.332Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control the test your internet connection. It shows Ping, download and upload speed
 
-# 3. Supported operation systems
+# 3. Supported operating systems
 - [X] Windows
 - [ ] Mac
 
