@@ -2,7 +2,7 @@
 title: NanoleafControl
 description: 
 published: true
-date: 2022-02-28T16:52:17.412Z
+date: 2022-03-09T09:08:09.372Z
 tags: loupedeck, plugin, extension, nanoleaf
 editor: markdown
 dateCreated: 2022-02-28T16:52:17.411Z
@@ -23,7 +23,7 @@ dateCreated: 2022-02-28T16:52:17.411Z
 # 2. What is this Plugin?
 This Loupedeck Plugin allows you to control your Nanoleaf devices!
 
-# 3. Supported operation systems
+# 3. Supported operating systems
 - [X] Windows
 - [ ] Mac
 
