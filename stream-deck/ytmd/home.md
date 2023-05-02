@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2022-01-12T20:35:31.063Z
+date: 2023-05-02T15:22:49.064Z
 tags: plugin, extension, ytmd, elgato, streamdeck
 editor: markdown
 dateCreated: 2022-01-12T20:35:31.063Z
@@ -15,7 +15,7 @@ dateCreated: 2022-01-12T20:35:31.063Z
 
 [![Issues-pr](https://img.shields.io/github/issues-pr/XeroxDev/YTMD-StreamDeck?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/pulls) [![Issues-pr closed](https://img.shields.io/github/issues-pr-closed/XeroxDev/YTMD-StreamDeck?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/pulls?q=is%3Apr+is%3Aclosed) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/compare)
 
-[![Build](https://img.shields.io/github/workflow/status/XeroxDev/YTMD-StreamDeck/CI-CD?style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/actions?query=workflow%3A%22CI-CD%22) [![Release](https://img.shields.io/github/release/XeroxDev/YTMD-StreamDeck?color=black&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/releases) ![Codecov](https://img.shields.io/codecov/c/github/XeroxDev/YTMD-StreamDeck?style=for-the-badge)
+[![Build](https://img.shields.io/github/actions/workflow/status/XeroxDev/YTMD-StreamDeck/main.yml?style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/actions?query=workflow%3A%22CI-CD%22) [![Release](https://img.shields.io/github/release/XeroxDev/YTMD-StreamDeck?color=black&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/releases) ![Codecov](https://img.shields.io/codecov/c/github/XeroxDev/YTMD-StreamDeck?style=for-the-badge)
 
 [![Downloads](https://img.shields.io/github/downloads/XeroxDev/YTMD-StreamDeck/total.svg?color=cyan&style=for-the-badge&logo=github)]() [![Downloads Elgato](https://img.shields.io/badge/dynamic/json?color=cyan&label=Elgato%20Downloads&query=ytmd&style=for-the-badge&url=https%3A%2F%2Fapi.xeroxdev.de%2Fpublic%2Felgato-downloads.json)]()
 
@@ -23,6 +23,10 @@ dateCreated: 2022-01-12T20:35:31.063Z
 
 # 2. What is this Plugin?
 This Stream Deck Plugin allows you to control the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop)
+
+> **Note**: we don't support v1.13.0 or lower, we recommend updating to the latest Nightly pre-release
+{.is-warning}
+
 
 # 3. Support / Feedback
 You found a bug? You have a feature request? I would love to hear about it [here](https://github.com/XeroxDev/YTMD-StreamDeck/issues/new/choose) or click on the "Issues" tab here on the GitHub repositorie!
@@ -61,6 +65,15 @@ You can also join my discord [here](https://s.tswi.me/discord)
 8. Click on Play/Pause button.
 9. Add all settings. (Host, Port, Password)
 10. Click save
+
+<details>
+  <summary>Video Tutorial</summary>
+  <a href="https://www.youtube.com/watch?v=WVpHYHxJsXY" target="_blank" rel="noopener noreferrer">
+  	<img src="/assets/ytmd-streamdeck-video.png" />
+  </a>
+  - By Vahyking (Thank you!)
+</details>
+
 
 # 6. How to contribute?
 
