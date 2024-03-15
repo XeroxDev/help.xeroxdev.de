@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2024-02-13T12:58:41.097Z
+date: 2024-03-15T20:23:29.464Z
 tags: plugin, extension, ytmd, elgato, streamdeck
 editor: markdown
 dateCreated: 2022-01-12T20:35:31.063Z
@@ -53,19 +53,66 @@ You can also join my discord [here](https://x.xeroxdev.de/s/discord)
 
 # 5. How to use it?
 
-1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
-2. Install the Plugin from [Releases](https://github.com/XeroxDev/YTMD-StreamDeck/releases) or from the official Stream Deck Store.
-3. Add Play/Pause action
-4. Insert, if not already correct, the settings to YTMDesktop (eg. Host and Port)
-5. Make sure the YTMDesktop App and the Companion Server is running
-   - To start the companion server, click at the top right of YTMDesktop on the settings gear
-   - Go on the left side on the "Integrations" tab
-   - Enable the "Companion Server"
-6. Turn on "enable companion authorization" under the Companion Server
-7. Press the Authorize button in the Play/Pause action settings
-8. Compare the authorization code displaying by the plugin with the one displaying in the YTMDesktop App
-9. If they match, confirm the authorization in the YTMDesktop App
-10. You are ready to go! (Steps 6-9 are only needed once/when the plugin isn't authorized)
+<ol>
+  <li>Install the <a rel="noreferrer" target="_blank" href="https://github.com/ytmdesktop/ytmdesktop" class="is-external-link">YouTube Music Desktop App</a>.</li>
+	<li>Install the Plugin from <a rel="noreferrer" target="_blank" href="https://github.com/XeroxDev/YTMD-StreamDeck/releases" class="is-external-link">Releases</a> or from the official Stream Deck Store.</li>
+	<li>
+    Add Play/Pause action
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step3.png" alt="step3.png"/>
+    </details>
+  </li>
+  <li>
+    Click on the Play/Pause action and insert, if not already correct, the settings to YTMDesktop (eg. Host and Port)
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step4.png" alt="step4.png"/>
+    </details>
+  </li>
+  <li>
+    Make sure the YTMDesktop App and the Companion Server is running
+    <ul>
+    	<li>To start the companion server, click at the top right of YTMDesktop on the settings gear</li>
+      <li>Go on the left side on the "Integrations" tab</li>
+      <li>Enable the "Companion Server"</li>
+    </ul>
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step5.1.png" alt="step5.1.png"/>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step5.2.png" alt="step5.2.png"/>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step5.3.png" alt="step5.3.png"/>
+    </details>
+  </li>
+  <li>
+    Turn on "enable companion authorization" under the Companion Server
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step6.png" alt="step6.png"/>
+    </details>
+  </li>
+  <li>
+    Press the Authorize button in the Play/Pause action settings
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step7.png" alt="step7.png"/>
+    </details>
+  </li>
+  <li>
+    Compare the authorization code displaying by the plugin with the one displaying in the YTMDesktop App and if they match, confirm the authorization in the YTMDesktop App
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step8.png" alt="step8.png"/>
+    </details>
+  </li>
+  <li>
+    If you got a <span style="color: green;">Authenticated</span> you are ready to go! (Steps 6-8 are only needed once/when the plugin isn't authorized)
+    <details>
+      <summary>Show me!</summary>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step9.png" alt="step9.png"/>
+    </details>
+  </li>
+</ol>
 
 # 6. How to contribute?
 
