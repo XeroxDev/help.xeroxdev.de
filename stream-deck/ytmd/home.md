@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2024-03-15T20:23:29.464Z
+date: 2024-03-15T20:26:28.091Z
 tags: plugin, extension, ytmd, elgato, streamdeck
 editor: markdown
 dateCreated: 2022-01-12T20:35:31.063Z
@@ -79,8 +79,8 @@ You can also join my discord [here](https://x.xeroxdev.de/s/discord)
     </ul>
     <details>
       <summary>Show me!</summary>
-      <img src="/assets/guides/streamdeck/ytmdesktop/step5.1.png" alt="step5.1.png"/>
-      <img src="/assets/guides/streamdeck/ytmdesktop/step5.2.png" alt="step5.2.png"/>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step5.1.png" alt="step5.1.png"/><br/>
+      <img src="/assets/guides/streamdeck/ytmdesktop/step5.2.png" alt="step5.2.png"/><br/>
       <img src="/assets/guides/streamdeck/ytmdesktop/step5.3.png" alt="step5.3.png"/>
     </details>
   </li>
