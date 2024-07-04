@@ -2,11 +2,13 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2024-03-15T20:26:28.091Z
+date: 2024-07-04T16:58:44.777Z
 tags: plugin, extension, ytmd, elgato, streamdeck
 editor: markdown
 dateCreated: 2022-01-12T20:35:31.063Z
 ---
+
+![Thumbnail](https://raw.githubusercontent.com/XeroxDev/YTMD-StreamDeck/master/assets/thumbnail/ytmdc-thumbnail.png)
 
 # 1. Badges
 [![Forks](https://img.shields.io/github/forks/XeroxDev/YTMD-StreamDeck?color=blue&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/network/members) [![Stars](https://img.shields.io/github/stars/XeroxDev/YTMD-StreamDeck?color=yellow&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/stargazers) [![Watchers](https://img.shields.io/github/watchers/XeroxDev/YTMD-StreamDeck?color=lightgray&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/watchers) [![Contributors](https://img.shields.io/github/contributors/XeroxDev/YTMD-StreamDeck?color=green&style=for-the-badge)](https://github.com/XeroxDev/YTMD-StreamDeck/graphs/contributors)
