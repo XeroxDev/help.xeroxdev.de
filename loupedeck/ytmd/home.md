@@ -2,7 +2,7 @@
 title: YouTube Music Desktop
 description: 
 published: true
-date: 2024-02-13T13:01:58.388Z
+date: 2024-10-02T20:41:48.228Z
 tags: loupedeck, plugin, extension, ytmd
 editor: markdown
 dateCreated: 2022-01-10T11:54:12.635Z
@@ -56,17 +56,47 @@ You can also join my discord [here](https://s.tswi.me/discord)
   - ONE
 
 # 6. How to use it?
-
-1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
-2. Install the latest Plugin (`.lplug4` file) from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases)
-3. Add Actions to your Loupedeck.
-4. Activate the Companion Server / Remote control from YTMD App
-    - Settings > Integration > "Enable Companion Server" or "Remote control" (Should be the first entry with an open icon)
-5. Click on the open Icon or go to http://localhost:9863/ (Default)
-6. Optional: Activate password protection. else go to 7.
-7. Add “Open settings” action and touch it
-8. Add all settings. (Host, Port, Password)
-9. Click save
+<ol>
+  <li>Install the <a href="https://github.com/ytmdesktop/ytmdesktop">YouTube Music Desktop App</a>.</li>
+    <li>Install the Plugin from <a href="https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases">Releases</a> or from the official Loupedeck Store.</li>
+    <li>
+    Add a settings profile action, fill out everything and click save.
+    <details class="example">
+      <summary>Show me!</summary>
+      <img src="/assets/guides/loupedeck/ytmdesktop/step3.1.png" alt="step3.1.png"/>
+    </details>
+  </li>
+  <li>
+    Make sure the YouTube Music Desktop App and the Companion Server is running
+    <ul>
+        <li>To start the companion server, click at the top right of YTMDesktop on the settings gear</li>
+      <li>Go on the left side on the "Integrations" tab</li>
+      <li>Enable the "Companion Server"</li>
+    </ul>
+    <details class="example">
+      <summary>Show me!</summary>
+      <img src="/assets/guides/ytmdesktop/step1.png" alt="step1.png"/><br/>
+      <img src="/assets/guides/ytmdesktop/step2.png" alt="step2.png"/><br/>
+      <img src="/assets/guides/ytmdesktop/step3.png" alt="step3.png"/>
+    </details>
+  </li>
+  <li>
+    Turn on "enable companion authorization" under the Companion Server
+    <details class="example">
+      <summary>Show me!</summary>
+      <img src="/assets/guides/ytmdesktop/step4.png" alt="step6.png"/>
+    </details>
+  </li>
+  <li>Press the Profile button on your device</li>
+  <li>
+    Compare the authorization code displaying by the plugin with the one displaying in the YouTube Music Desktop App and if they match, confirm the authorization in the YouTube Music Desktop App
+    <details class="example">
+      <summary>Show me!</summary>
+      <img src="/assets/guides/loupedeck/ytmdesktop/step7.png" alt="step8.png"/>
+    </details>
+  </li>
+  <li>If you've gotten no error and the plugin is now displayed in the "Authorized companions" list of YouTube Music Desktop, you can now use the plugin</li>
+</ol>
 
 # 7. Links
 [Download](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases/latest/download/YTMDesktop.lplug4){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .primary} [Source Code](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .secondary} [Changelog](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/blob/main/CHANGELOG.md){: .v-btn .v-btn--flat .v-btn--text .theme--dark .v-size--default .v-btn--depressed .theme--dark .white--text .success}
