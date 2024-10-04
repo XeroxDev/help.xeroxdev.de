@@ -1,0 +1,139 @@
+site_name: Help Desk
+site_url: https://help.xeroxdev.de
+repo_url: https://github.com/XeroxDev/help.xeroxdev.de
+repo_name: Docs Source Code
+edit_uri: edit/main/docs/
+site_author: XeroxDev
+site_description: 'Help Desk for all my projects'
+theme:
+  name: material
+  language: en
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  icon:
+    tag:
+      ytmd: material/youtube
+      elgato: simple/elgato
+      plugin: material/puzzle
+      loupedeck: material/pac-man
+      error: fontawesome/solid/triangle-exclamation
+      VoiceMeeter: material/microphone
+      speedtest: material/speedometer
+      nanoleaf: material/lightbulb
+extra:
+  tags:
+    'YouTube Music Desktop': ytmd
+    ytmd: ytmd
+    elgato: elgato
+    streamdeck: elgato
+    plugin: plugin
+    extension: plugin
+    loupedeck: loupedeck
+    error: error
+    VoiceMeeter: VoiceMeeter
+    speedtest: speedtest
+    nanoleaf: nanoleaf
+plugins:
+  - privacy
+  - search
+  - social
+  - tags
+  - glightbox
+  - macros
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - git-authors:
+      fallback_to_build_date: true
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - https://cdn.tailwindcss.com
+  - https://kit.fontawesome.com/d3f093cbaa.js
+  - assets/javascripts/extra.js
+copyright: 'Copyright &copy; 2021 - <script>document.write(new Date().getFullYear())</script> | Written with <i class="fas fa-heart" style="color: #CC2255; width: 1em; height: 1em;"></i> by XeroxDev'
+markdown_extensions:
+  - toc:
+      permalink: true
+      title: On this page
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      line_spans: __span
+      pygments_lang_class: true
+draft_docs: |
+  draft/
+  .*
+hooks:
+  - hooks/link-rewrite.py
+watch:
+  - main.py
+  - snippets/
+validation:
+  links:
+    absolute_links: relative_to_docs
+nav:
+  - Welcome: index.md
+  - 'Stream Deck':
+      - 'YouTube Music Desktop': en/stream-deck/ytmd/home.md
+  - Loupedeck:
+      - 'YouTube Music Desktop':
+          - en/loupedeck/ytmd/home.md
+          - Errors:
+              - en/loupedeck/ytmd/error/100.md
+      - VoiceMeeter:
+          - en/loupedeck/voicemeeter/home.md
+          - Errors:
+              - en/loupedeck/voicemeeter/error/100.md
+              - en/loupedeck/voicemeeter/error/101.md
+      - Streamer.bot: en/loupedeck/streamerbot/home.md
+      - Speedtest: en/loupedeck/speedtest/home.md
+      - NanoleafControl: en/loupedeck/nanoleaf-control/home.md
+      - ElgatoControl: en/loupedeck/elgato-control/home.md

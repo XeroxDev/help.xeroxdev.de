@@ -1,0 +1,102 @@
+@import url('https://dl.fnux.io/fonts/fnux/font.css');
+
+:root {
+  --md-text-font: 'FNUX',
+  'system-ui',
+  '-apple-system',
+  'BlinkMacSystemFont',
+  'Segoe UI',
+  'Roboto',
+  'Helvetica',
+  'Arial',
+  'sans-serif',
+  'Apple Color Emoji',
+  'Segoe UI Emoji',
+  'Segoe UI Symbol';
+}
+
+@media screen {
+
+  [data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #cc2255;
+    --md-primary-fg-color--light: #dd2255;
+    --md-primary-fg-color--dark: #aa2255;
+
+    --md-accent-fg-color: #cc2255;
+
+    --md-hue: 180deg;
+    --md-default-fg-color: #eee;
+    --md-default-fg-color--light: #ddd;
+    --md-default-fg-color--lighter: #ccc;
+    --md-default-fg-color--lightest: #333;
+    --md-default-bg-color: #222;
+    --md-default-bg-color--light: #333;
+    --md-default-bg-color--lighter: #444;
+    --md-default-bg-color--lightest: #555;
+  }
+}
+
+.md-button.md-button--success {
+  border-color: #3B7;
+  color: #3B7;
+}
+
+.md-button.md-button--success:hover,
+.md-button.md-button--success:focus,
+.md-button.md-button--success:active {
+  background: #3B7;
+  color: #000;
+  border-color: #3B7;
+}
+
+.md-button.md-button--warning {
+  border-color: #E92;
+  color: #E92;
+}
+
+.md-button.md-button--warning:hover,
+.md-button.md-button--warning:focus,
+.md-button.md-button--warning:active {
+  background: #E92;
+  color: #000;
+  border-color: #E92;
+}
+
+.md-button.md-button--info {
+  border-color: #39B;
+  color: #39B;
+}
+
+.md-button.md-button--info:hover,
+.md-button.md-button--info:focus,
+.md-button.md-button--info:active {
+  background: #39B;
+  color: #000;
+  border-color: #39B;
+}
+
+.md-button.md-button--danger {
+  border-color: #F43;
+  color: #F43;
+}
+
+.md-button.md-button--danger:hover,
+.md-button.md-button--danger:focus,
+.md-button.md-button--danger:active {
+  background: #F43;
+  color: #000;
+  border-color: #F43;
+}
+
+.md-button.md-button--light {
+  border-color: #eee;
+  color: #eee;
+}
+
+.md-button.md-button--light:hover,
+.md-button.md-button--light:focus,
+.md-button.md-button--light:active {
+  background: #eee;
+  color: #222;
+  border-color: #eee;
+}
