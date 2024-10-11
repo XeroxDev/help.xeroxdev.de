@@ -50,8 +50,8 @@ You can play/pause, skip, go back, like, dislike, and more from your Loupedeck, 
 
         Example: Current Track is 2:30 long, the current time is 1:00, the remaining time is 1:30. The variables would be:
 
-        - `{current}` = 2:30
-        - `{current:S}` = 150
+        - `{current}` = 1:00
+        - `{current:S}` = 60
         - `{duration}` = 2:30
         - `{duration:S}` = 150
         - `{remaining}` = 1:30
