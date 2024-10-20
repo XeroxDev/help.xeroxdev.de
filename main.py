@@ -1,7 +1,7 @@
 def define_env(env):
   @env.macro
   def badges(repo_owner="XeroxDev", repo="Loupedeck-plugin-YTMDesktop", forks=True, stars=True, watchers=True, contributors=True, issues=True, issues_closed=True, issues_pr=True,
-             issues_pr_closed=True, prs_welcome=True, release=True, github_downloads=True, loupedeck=None, awesome_badges=True):
+             issues_pr_closed=True, prs_welcome=True, release=True, github_downloads=True, loupedeck=None, elgato=None, awesome_badges=True):
     """
     This command is used to render the default badges.
     """
@@ -35,6 +35,9 @@ def define_env(env):
     if loupedeck:
       output.append(
         f"[![Loupedeck Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Floupedeckmarketplace.com%2Fapi%2Fasset%2F{loupedeck}&query=%24.downloadCount&style=for-the-badge&logo=logitech&label=Downloads&color=00bbbb)](https://loupedeckmarketplace.com/asset/{loupedeck})")
+    if elgato:
+      output.append(
+        f"[![Elgato Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmarketplace.elgato.com%2F_next%2Fdata%2FkouwQcGra0Z-3fTXHeZB3%2Fproduct%2F{elgato}.json&query=%24.pageProps.content.download_count&style=for-the-badge&logo=elgato&label=Downloads&color=00bbbb)](https://marketplace.elgato.com/product/{elgato})")
     if awesome_badges:
       output.append(f"[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green?style=for-the-badge)](https://shields.io)")
 
@@ -42,7 +45,7 @@ def define_env(env):
     return "\n\n".join([" ".join(output[i:i + 3]) for i in range(0, len(output), 3)])
 
   @env.macro
-  def links_section(repo="Loupedeck-plugin-YTMDesktop", download=None, loupedeck=None, source=True, changelog=True, repo_owner="XeroxDev"):
+  def links_section(repo="Loupedeck-plugin-YTMDesktop", download=None, loupedeck=None, elgato=None, source=True, changelog=True, repo_owner="XeroxDev"):
     """
     This command is used to render a default links section.
     """
@@ -55,6 +58,8 @@ def define_env(env):
       output.append(f"[Changelog :material-text-long:](https://github.com/{repo_owner}/{repo}/blob/master/CHANGELOG.md){{: .md-button .md-button--info }}")
     if loupedeck:
       output.append(f"[Loupedeck Marketplace :material-store:](https://loupedeckmarketplace.com/asset/{loupedeck}){{: .md-button .md-button--light }}")
+    if elgato:
+      output.append(f"[Elgato Marketplace :material-store:](https://marketplace.elgato.com/product/{elgato}){{: .md-button .md-button--light }}")
     return "\n".join(output)
 
   @env.macro

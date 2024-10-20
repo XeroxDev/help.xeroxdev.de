@@ -17,7 +17,7 @@ tags:
 
 ## 1. Badges
 
-{{badges(repo='YTMD-StreamDeck')}}
+{{badges(repo='YTMD-StreamDeck', elgato='youtube-music-desktop-connector-4dc3acfb-f1ae-496d-8c17-26975316af2d')}}
 
 ## 2. What is this Plugin?
 
@@ -118,7 +118,7 @@ from your Stream Deck, without having to switch windows.
 
 ## 6. Links
 
-{{links_section('YTMD-StreamDeck', 'fun.shiro.ytmd.streamDeckPlugin')}}
+{{links_section('YTMD-StreamDeck', 'fun.shiro.ytmd.streamDeckPlugin', elgato='youtube-music-desktop-connector-4dc3acfb-f1ae-496d-8c17-26975316af2d')}}
 
 ## 7. How to contribute?
 
