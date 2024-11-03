@@ -28,11 +28,11 @@
     --md-default-fg-color: #eee;
     --md-default-fg-color--light: #ddd;
     --md-default-fg-color--lighter: #ccc;
-    --md-default-fg-color--lightest: #333;
-    --md-default-bg-color: #222;
-    --md-default-bg-color--light: #333;
-    --md-default-bg-color--lighter: #444;
-    --md-default-bg-color--lightest: #555;
+    --md-default-fg-color--lightest: #222;
+    --md-default-bg-color: #111;
+    --md-default-bg-color--light: #222;
+    --md-default-bg-color--lighter: #333;
+    --md-default-bg-color--lightest: #444;
   }
 }
 
@@ -97,7 +97,7 @@
 .md-button.md-button--light:focus,
 .md-button.md-button--light:active {
   background: #eee;
-  color: #222;
+  color: #111;
   border-color: #eee;
 }
 
