@@ -70,7 +70,8 @@ def define_env(env):
     output = [
       f"Do you have any issues, a question or just want to give feedback?",
       f"",
-      f"Please feel free to join my Discord and ask me there or open an issue on GitHub. I will try to help you as soon as possible.",
+      f"Please feel free to join my Discord and ask me there{' or open an issue on GitHub' if repo else ''}. I will try to help you as soon as possible."
+      f"",
       f"",
       f"[Discord :fontawesome-brands-discord:](https://x.xeroxdev.de/s/discord){{: .md-button .md-button--success }}"
     ]

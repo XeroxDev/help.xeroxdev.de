@@ -29,7 +29,7 @@ from your Stream Deck, without having to switch windows.
 
 ## 3. Support / Feedback
 
---8<-- "snippets/support-feedback.md"
+{{feedback_section('YTMD-StreamDeck')}}
 
 ## 4. Available Actions
 
