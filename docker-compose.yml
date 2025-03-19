@@ -3,6 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      target: setup
     ports:
       - "8000:8000"
     volumes:
