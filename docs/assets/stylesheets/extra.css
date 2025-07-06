@@ -110,3 +110,13 @@
   height: 1.25rem;
   display: inline-flex;
 }
+
+.md-grid {
+  max-width: 70rem !important;
+}
+
+@media screen {
+  .js .md-typeset .tabbed-labels::before {
+    background: #CC2255;
+  }
+}

@@ -1,0 +1,10 @@
+flatten_single_child_sections: true
+nav:
+  - "*.md"
+  - Apps:
+      - en/apps/*
+  - Loupedeck:
+      - en/loupedeck/*
+  - Stream Deck:
+      - YouTube Music Desktop:
+        - en/stream-deck/ytmd

@@ -12,11 +12,11 @@ Here you can find many articles and FAQs about my products. These should help yo
 
 Thank you for helping! If you want to add missing articles, report them or want to translate them, you have multiple ways to do this.
 
-This website has a GitHub repository with all pages [here](https://github.com/XeroxDev/help.xeroxdev.de).
+This website has a GitHub repository with all pages [here][help-desk-repo].
 
 === "I just want to report it!"
 
-    If you want to report it, just create an issue [here](https://github.com/XeroxDev/help.xeroxdev.de/issues)
+    If you want to report it, just create an issue [here][help-desk-issues].
 
 === "I can fix it myself!"
 
@@ -24,11 +24,11 @@ This website has a GitHub repository with all pages [here](https://github.com/Xe
 
 ### My problem isn't described here in the articles
 
-You can either open a issue in the GitHub repository or you can contact me via email ([help@xeroxdev.de](mailto:help@xeroxdev.de)).
+You can either open a issue in the GitHub repository or you can contact me via email ([help@xeroxdev.de][help-email]).
 
 ### Links
 
-Join our [discord](https://s.tswi.me/discord) for even more help or to chat!
+Join our [Discord Server][] for even more help or to chat!
 
 You want to support me? Find more information below at the [Support-Section](#support)
 
@@ -90,4 +90,4 @@ You want to support me? Find more information below at the [Support-Section](#su
 
 I try my very best to create and maintain everything for free! But if you want (you don't have to), I'm always happy about an **optional**{: .tw-underline } donation to pay my bills (or my cofee/snacks)! :heart:
 
-[Buy me a :fontawesome-solid-mug-saucer:](https://ko-fi.com/xeroxdev){: .md-button target="_blank" rel="noreferrer" }
+[Buy me a :fontawesome-solid-mug-saucer:][kofi]{: .md-button }

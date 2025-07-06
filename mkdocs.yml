@@ -17,56 +17,38 @@ theme:
   features:
     - navigation.tracking
     - navigation.sections
-    - toc.integrate
-    - toc.follow
+    - navigation.indexes
+    - toc.follows
     - navigation.top
     - search.suggest
     - content.action.edit
     - content.code.copy
     - content.code.annotate
     - content.tooltips
-  icon:
-    tag:
-      ytmd: material/youtube
-      elgato: simple/elgato
-      plugin: material/puzzle
-      loupedeck: material/pac-man
-      error: fontawesome/solid/triangle-exclamation
-      VoiceMeeter: material/microphone
-      speedtest: material/speedometer
-      nanoleaf: material/lightbulb
-extra:
-  tags:
-    'YouTube Music Desktop': ytmd
-    ytmd: ytmd
-    elgato: elgato
-    streamdeck: elgato
-    plugin: plugin
-    extension: plugin
-    loupedeck: loupedeck
-    error: error
-    VoiceMeeter: VoiceMeeter
-    speedtest: speedtest
-    nanoleaf: nanoleaf
 plugins:
   - privacy
   - search
+  - awesome-nav
   - social
-  - tags
   - glightbox
   - macros
+  - redirects:
+      redirect_maps:
+        en/loupedeck/elgato-control/home.md: en/loupedeck/elgato-control/index.md
+        en/loupedeck/nanoleaf-control/home.md: en/loupedeck/nanoleaf-control/index.md
+        en/loupedeck/speedtest/home.md: en/loupedeck/speedtest/index.md
+        en/loupedeck/streamerbot/home.md: en/loupedeck/streamerbot/index.md
+        en/loupedeck/voicemeeter/home.md: en/loupedeck/voicemeeter/index.md
+        en/loupedeck/ytmd/home.md: en/loupedeck/ytmd/index.md
+        en/stream-deck/ytmd/home.md: en/stream-deck/ytmd/index.md
   - minify:
       minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-      fallback_to_build_date: true
 extra_css:
   - assets/stylesheets/extra.css
 extra_javascript:
   - https://cdn.tailwindcss.com
-  - https://kit.fontawesome.com/d3f093cbaa.js
   - assets/javascripts/extra.js
-copyright: 'Copyright &copy; 2021 - <script>document.write(new Date().getFullYear())</script> | Written with <i class="fas fa-heart" style="color: #CC2255; width: 1em; height: 1em;"></i> by XeroxDev'
+copyright: 'Copyright &copy; 2021 - <script>document.write(new Date().getFullYear())</script> | Written with <span class="twemoji" style="color: #CC2255"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12 21.35-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53z"></path></svg></span> by XeroxDev'
 markdown_extensions:
   - toc:
       permalink: true
@@ -88,7 +70,15 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.smartsymbols
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - docs
+        - snippets
+      check_paths: true
+      auto_append:
+        - _refs.md
+        - _abbr.md
+      restrict_base_path: true
   - pymdownx.tabbed:
       alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
@@ -117,21 +107,3 @@ watch:
 validation:
   links:
     absolute_links: relative_to_docs
-nav:
-  - Welcome: index.md
-  - 'Stream Deck':
-      - 'YouTube Music Desktop': en/stream-deck/ytmd/home.md
-  - Loupedeck:
-      - 'YouTube Music Desktop':
-          - en/loupedeck/ytmd/home.md
-          - Errors:
-              - en/loupedeck/ytmd/error/100.md
-      - VoiceMeeter:
-          - en/loupedeck/voicemeeter/home.md
-          - Errors:
-              - en/loupedeck/voicemeeter/error/100.md
-              - en/loupedeck/voicemeeter/error/101.md
-      - Streamer.bot: en/loupedeck/streamerbot/home.md
-      - Speedtest: en/loupedeck/speedtest/home.md
-      - NanoleafControl: en/loupedeck/nanoleaf-control/home.md
-      - ElgatoControl: en/loupedeck/elgato-control/home.md

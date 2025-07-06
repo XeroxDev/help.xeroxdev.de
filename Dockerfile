@@ -1,5 +1,5 @@
 # Build stage: Build the static site using MkDocs
-FROM squidfunk/mkdocs-material as setup
+FROM squidfunk/mkdocs-material AS setup
 
 COPY . /app
 WORKDIR /app
@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt
 
 
 # Build stage: Build the static site using MkDocs
-FROM setup as builder
+FROM setup AS builder
 RUN mkdocs build
 
 # Serve stage: Serve the static site using Nginx

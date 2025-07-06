@@ -1,13 +1,5 @@
 ---
 title: YouTube Music Desktop
-tags:
-
-- plugin
-- extension
-- ytmd
-- YouTube Music Desktop
-- loupedeck
-
 ---
 
 # YouTube Music Desktop
@@ -18,7 +10,7 @@ tags:
 
 ## 2. What is this Plugin?
 
-With this plugin, you can easily control nearly everything about the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop). 
+With this plugin, you can easily control nearly everything about the [YouTube Music Desktop App][]. 
 You can play/pause, skip, go back, like, dislike, and more from your Loupedeck, without having to switch windows.
 
 !!! warning "Important"
@@ -81,8 +73,8 @@ You can play/pause, skip, go back, like, dislike, and more from your Loupedeck, 
 
 ## 5. How to use it?
 
-1. Install the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop).
-2. Install the Plugin from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-YTMDesktop/releases) or from the official [Loupedeck Store](https://loupedeckmarketplace.com/asset/YTMDesktop).
+1. Install the [YouTube Music Desktop App][].
+2. Install the Plugin from [Releases][ld-ytmdesktop-release] or from the official [Loupedeck Store][ld-ytmdesktop-marketplace].
 3. Add a settings profile action, fill out everything and click save.
 
     ??? example "Show me!"
@@ -137,5 +129,5 @@ You can play/pause, skip, go back, like, dislike, and more from your Loupedeck, 
 Just fork the repository and create PR's.
 
 !!! info
-    We're using [release-please](https://github.com/googleapis/release-please) to optimal release the plugin.
-    release-please is following the [conventionalcommits](https://www.conventionalcommits.org) specification.
+    We're using [release-please][] to optimal release the plugin.
+    release-please is following the [Conventional Commits][] specification.

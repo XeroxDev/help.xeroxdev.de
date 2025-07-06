@@ -1,3 +1,6 @@
+from pathlib import Path
+import yaml
+
 def define_env(env):
   @env.macro
   def badges(repo_owner="XeroxDev", repo="Loupedeck-plugin-YTMDesktop", forks=True, stars=True, watchers=True, contributors=True, issues=True, issues_closed=True, issues_pr=True,
@@ -37,7 +40,7 @@ def define_env(env):
         f"[![Loupedeck Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Floupedeckmarketplace.com%2Fapi%2Fasset%2F{loupedeck}&query=%24.downloadCount&style=for-the-badge&logo=logitech&label=Downloads&color=00bbbb)](https://loupedeckmarketplace.com/asset/{loupedeck})")
     if elgato:
       output.append(
-        f"[![Elgato Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmarketplace.elgato.com%2F_next%2Fdata%2FkouwQcGra0Z-3fTXHeZB3%2Fproduct%2F{elgato}.json&query=%24.pageProps.content.download_count&style=for-the-badge&logo=elgato&label=Downloads&color=00bbbb)](https://marketplace.elgato.com/product/{elgato})")
+        f"[![Elgato Downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fmarketplace.elgato.com%2F_next%2Fdata%2FYOXdNWTxl62ZTYJaLZR6y%2Fproduct%2F{elgato}.json&query=%24.pageProps.content.download_count&style=for-the-badge&logo=elgato&label=Downloads&color=00bbbb)](https://marketplace.elgato.com/product/{elgato})")
     if awesome_badges:
       output.append(f"[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green?style=for-the-badge)](https://shields.io)")
 
@@ -78,3 +81,48 @@ def define_env(env):
     if repo:
       output.append(f"[GitHub :material-github:](https://github.com/{repo_owner}/{repo}/issues/new/choose){{: .md-button .md-button--light }}")
     return "\n".join(output)
+
+  @env.macro
+  def list_pages_in(relative_folder):
+    docs_dir = Path(env.conf['docs_dir'])
+    page_src = Path(env.page.file.src_path)
+    base_dir = docs_dir / page_src.parent
+    target_dir = base_dir / relative_folder
+
+    if not target_dir.exists():
+      return []
+
+    pages = []
+
+    for file in target_dir.glob("*.md"):
+      if file.name == "index.md":
+        continue
+
+      with open(file, encoding="utf-8") as f:
+        content = f.read()
+
+      title = None
+      description = None
+      if content.startswith("---"):
+        try:
+          _, fm, rest = content.split("---", 2)
+          meta = yaml.safe_load(fm)
+          title = meta.get("title")
+          description = meta.get("description")
+        except Exception:
+          pass
+        if not title:
+          title = next((line.strip("# ").strip() for line in rest.splitlines() if line.startswith("#")), file.stem)
+      else:
+        title = next((line.strip("# ").strip() for line in content.splitlines() if line.startswith("#")), file.stem)
+
+      relative_path = file.relative_to(docs_dir).with_suffix("")
+      url = "/" + str(file.relative_to(docs_dir)).replace("\\", "/")
+
+      pages.append({
+          "title": title or file.stem,
+          "description": description or "",
+          "url": url
+      })
+
+    return sorted(pages, key=lambda p: p["title"])

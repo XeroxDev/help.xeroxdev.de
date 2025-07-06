@@ -1,12 +1,5 @@
 ---
 title: Elgato Control
-tags:
-
-- plugin
-- extension
-- elgato
-- loupedeck
-
 ---
 
 # Elgato Control
@@ -35,12 +28,12 @@ This Loupedeck Plugin allows you to control your Elgato devices!
 
 ## 6. How to use it?
 
-1. Install the latest Plugin (`.lplug4` file) from [Releases](https://github.com/XeroxDev/Loupedeck-plugin-ElgatoControl/releases) or the marketplace
+1. Install the latest Plugin (`.lplug4` file) from [Links](#7-links) or the marketplace
 2. Add the "Authenticate" button to the Loupedeck
 3. Press the "Authenticate" button and follow the instructions
 4. When authenticated, add the other actions and have fun!
 
 ## 7. Links
 
-[Download :material-download:](https://dl.xeroxdev.de/plugins/releases/ElgatoControlPlugin.lplug4){: .md-button .md-button--success }
-[Loupedeck Marketplace :material-store:](https://loupedeckmarketplace.com/asset/ElgatoControl){: .md-button .md-button--light }
+[Download :material-download:][ld-elgato-control-download]{: .md-button .md-button--success }
+[Loupedeck Marketplace :material-store:][ld-elgato-control-marketplace]{: .md-button .md-button--light }

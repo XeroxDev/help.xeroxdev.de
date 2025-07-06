@@ -1,19 +1,10 @@
 ---
 title: YouTube Music Desktop
-tags:
-
-- plugin
-- extension
-- ytmd
-- YouTube Music Desktop
-- elgato
-- streamdeck
-
 ---
 
 # YouTube Music Desktop
 
-![hero](https://raw.githubusercontent.com/XeroxDev/YTMD-StreamDeck/master/assets/thumbnail/ytmdc-thumbnail.png)
+![hero][sd-ytmdesktop-hero]
 
 ## 1. Badges
 
@@ -21,7 +12,7 @@ tags:
 
 ## 2. What is this Plugin?
 
-With this plugin, you can easily control nearly everything about the [YouTube Music Desktop App](https://github.com/ytmdesktop/ytmdesktop). You can play/pause, skip, go back, like, dislike, and more
+With this plugin, you can easily control nearly everything about the [YouTube Music Desktop App][]. You can play/pause, skip, go back, like, dislike, and more
 from your Stream Deck, without having to switch windows.
 
 !!! warning "Important"
@@ -125,5 +116,5 @@ from your Stream Deck, without having to switch windows.
 Just fork the repository and create PR's.
 
 !!! info
-    We're using [release-please](https://github.com/googleapis/release-please) to optimal release the plugin.
-    release-please is following the [conventionalcommits](https://www.conventionalcommits.org) specification.
+    We're using [release-please][] to optimal release the plugin.
+    release-please is following the [Conventional Commits][] specification.

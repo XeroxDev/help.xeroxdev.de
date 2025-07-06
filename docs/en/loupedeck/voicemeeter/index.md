@@ -1,12 +1,5 @@
 ---
 title: VoiceMeeter
-tags:
-
-- plugin
-- extension
-- VoiceMeeter
-- loupedeck
-
 ---
 
 # VoiceMeeter
@@ -17,7 +10,7 @@ tags:
 
 ## 2. What is this Plugin?
 
-With this plugin, you can easily control nearly everything about [VoiceMeeter](https://voicemeeter.com/). This turns your Loupedeck into a mixer controller for VoiceMeeter.
+With this plugin, you can easily control nearly everything about [VoiceMeeter][]. This turns your Loupedeck into a mixer controller for VoiceMeeter.
 
 ## 3. Supported operating systems
 - [x] Windows
@@ -67,8 +60,8 @@ With this plugin, you can easily control nearly everything about [VoiceMeeter](h
 
 ## 6. How to use it?
 
-1. Install [VoiceMeeter](https://voicemeeter.com/)
-2. Install the Plugin from <a href="https://github.com/XeroxDev/Loupedeck-plugin-VoiceMeeter/releases">Releases</a> or from the official Loupedeck Store.
+1. Install [VoiceMeeter][]
+2. Install the Plugin from [Releases][ld-voicemeeter-release] or from the official Loupedeck Store.
 3. Add your desired actions to your Loupedeck Profile.
 4. Enjoy controlling VoiceMeeter with your Loupedeck!
 
@@ -81,5 +74,5 @@ With this plugin, you can easily control nearly everything about [VoiceMeeter](h
 Just fork the repository and create PR's.
 
 !!! info
-    We're using [release-please](https://github.com/googleapis/release-please) to optimal release the plugin.
-    release-please is following the [conventionalcommits](https://www.conventionalcommits.org) specification.
+    We're using [release-please][] to optimal release the plugin.
+    release-please is following the [Conventional Commits][] specification.
