@@ -52,7 +52,7 @@
 
 <!-- "Ads" -->
 
-[Discord Server]: https://s.tswi.me/discord "Join our Discord Server!"
+[Discord Server]: https://x.xeroxdev.de/s/discord "Join our Discord Server!"
 [kofi]: https://ko-fi.com/xeroxdev "Support me on Ko-Fi"
 
 <!-- Third Party -->

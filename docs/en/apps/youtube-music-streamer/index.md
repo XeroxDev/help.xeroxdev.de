@@ -13,7 +13,7 @@ title: YouTube Music Streamer
 <!-- [![Downloads][ytms-badge-downloads]][ytms-download] -->
 
 ## About
-YouTube Music Streamer is a simple app, that allows you to combine [YouTube Music Desktop][ytmdesktop-url] with Twitch and your favourite Streaming Software.
+YouTube Music Streamer is a simple app, that allows you to combine [YouTube Music Desktop App][] with Twitch and your favourite Streaming Software.
 From widgets to commands, everything is possible and the best part, customizable to your liking!
 
 The application is written in C#. It uses MAUI x Blazor technology to create a cross-platform app. 
@@ -46,7 +46,7 @@ Lastly, you also need a Twitch Account and, of course, a streaming software.
     It's possible GitHub won't show all the files in the release, so make sure pressing the "Show all x assets" button to see all available files.
 
 ## Contributing
-If you want to contribute to the project, feel free to open an issue or a pull request. You can also join the [Discord server][discord-url] to discuss features, report bugs, or just chat with other users.
+If you want to contribute to the project, feel free to open an issue or a pull request. You can also join the [Discord Server][] to discuss features, report bugs, or just chat with other users.
 
 For more information on how to contribute, check out the [Contributing Guide][ytms-contributing-guide].
 
