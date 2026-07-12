@@ -1,35 +1,111 @@
 ---
 title: About / Updates
-description: Learn about the "About" section in YouTube Music Streamer, including how to check for updates and view application information.
+description: View build information, check for updates, access project links, and review application and third-party licenses.
 ---
 
 # About / Updates
-YouTube Music Streamer provides an "About" section where you can find information about the application, check for updates, and view the current version. This section is useful for keeping track of the application's status and ensuring you have the latest features and fixes.
 
-![YouTubeMusicStreamer.png](/assets/images/youtube-music-streamer/YouTubeMusicStreamer.png)
+The **About** page displays information about the installed YouTube Music Streamer build, its update status, project links, and licensing information.
 
-## Application Information
-In the "About" section, you can find the following information:
+It is also useful when reporting a problem because it shows the exact version and commit currently running.
+
+![YouTube Music Streamer About page](/assets/images/youtube-music-streamer/YouTubeMusicStreamer.png)
+
+## Application information
+
+The top section identifies the current application build.
 
 ### Build Time
-This shows the date and time when the application was built. It helps you know how recent the version you are using is.
+
+**Build Time** shows when the application package was created.
+
+This can help distinguish between different builds of the same development version.
 
 ### Version
-This displays the current version of YouTube Music Streamer you have installed. Including if it's a portable version or not. This is useful for checking if you are using the latest version or if an update is available.
+
+**Version** shows the installed YouTube Music Streamer version.
+
+Portable builds are identified with a **Portable** label beside the version.
+
+Include this value when reporting a bug or asking for support.
 
 ### Commit
-This shows the commit hash of the version you are using. It provides a unique identifier for the specific build, which can be helpful for debugging or support purposes.
 
-### Updates
-The application itself tries to check for updates automatically. If an update is available, you'll receive a notification prompting you to update. You can also manually check for updates by clicking the "Check for Updates" button.
+**Commit** shows the Git commit used to build the application.
 
-Also, if an update is available, here you can see the state of the update itself, what the new version is, if it's pending, downloaded and ready to install, etc.
+This uniquely identifies the source revision and is particularly useful for development, preview, or troubleshooting builds.
 
-## Release Notes
-In the "Release Notes" section, you can find the latest release notes for the application. This section only shows up, if there is a new version available. The release notes provide information about the new features, improvements, and bug fixes included in the latest version. This helps you understand what has changed and what new functionality is available.
+## Updates
 
-## License & Additional Permissions
-In the "License" and "Additional Permissions" sections, you can find information about the license of the application and any additional permissions required for its operation. This information is important for understanding the legal aspects of using the application and any third-party libraries it may depend on.
+The **Updates** field shows the current state of the application updater.
+
+Depending on the current state, it may indicate that:
+
+- the application is up to date;
+- an update is available;
+- an update check failed;
+- an update has been downloaded and is waiting for a restart.
+
+Installed builds display an action button below the update status. The button changes according to the next available update action.
+
+Portable builds are identified in the version field and do not display the installed-build update action.
+
+### Release notes
+
+When an update is available or waiting for a restart, a collapsible **Release notes** section appears below the application information.
+
+It describes the features, improvements, and fixes included in the newer version.
+
+## Project links
+
+The About page provides direct links to:
+
+- the project Discord server;
+- the source code and issue tracker on GitHub;
+- the developer's website.
+
+These links open in your default browser.
+
+## License
+
+The **License** section contains the full license text for YouTube Music Streamer.
+
+Expand the section to review the terms under which the application may be used, modified, and redistributed.
+
+## Additional Permissions
+
+The **Additional Permissions** section contains permissions that supplement the application's main software license.
+
+These are legal licensing terms. They are not Twitch permissions, Windows permissions, or permissions that the application requests from your account.
 
 ## Third-Party Licenses
-In the "Third-Party Licenses" section, you can find information about the licenses of any third-party libraries or components used in the application. This section is for transparency and to credit the awesome authors of the libraries that make YouTube Music Streamer possible.
+
+The **Third-Party Licenses** section lists libraries and components included with YouTube Music Streamer.
+
+Entries may include:
+
+- package name;
+- package version;
+- authors;
+- copyright information;
+- the detected license;
+- a local or online copy of the license text.
+
+Select a package name to open its project or package page.
+
+When a license document is available, select its license label to open it.
+
+!!! note
+    Third-party components remain subject to their own licenses, even though they are distributed as part of YouTube Music Streamer.
+
+## Information to include in support requests
+
+When reporting a problem, include:
+
+- the application version;
+- whether the build is portable;
+- the commit;
+- the relevant update status;
+- a diagnostics summary or log file when applicable.
+
+Diagnostics and logs can be accessed from the [Logging](logging.md) page.
